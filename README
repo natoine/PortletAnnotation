@@ -1,0 +1,11 @@
+This project was created during my phd.
+I used it in the development of my application for the ANR Intermed Project : 
+http://intermed.csregistry.org/tiki-index.php
+http://intermed.lirmm.fr/
+
+This project provides a set of Portlets and Servlets for Annotation.
+PorteltAnnotationStatus to create and choose AnnotationStatus.
+PortletCreateAnnotation to create Annotation.
+PortletViewAnnotation to list and view annotations of a Resource.
+PortletTopicsList to list topics as in Forums.
+ServletViewResources to view RDF exports of Resources.
