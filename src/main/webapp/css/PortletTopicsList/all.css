@@ -1,0 +1,9 @@
+.topic
+{
+	padding-left:2%;
+}
+.topics_list .topic .topic_label
+{
+	color : blue ;
+	cursor : pointer ;
+}

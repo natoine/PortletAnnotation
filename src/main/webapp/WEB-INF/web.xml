@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Portlet gérant l'annotation</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletViewResources</display-name>
+		<servlet-name>ServletViewResources</servlet-name>
+		<servlet-class>fr.natoine.servletResources.ServletViewResources</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletViewResources</servlet-name>
+		<url-pattern>/ServletViewResources</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletJSONAnnotationStatus</display-name>
+		<servlet-name>ServletJSONAnnotationStatus</servlet-name>
+		<servlet-class>fr.natoine.servletAnnotationStatus.ServletJSONAnnotationStatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletJSONAnnotationStatus</servlet-name>
+		<url-pattern>/ServletJSONAnnotationStatus</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletTag</display-name>
+		<servlet-name>ServletTag</servlet-name>
+		<servlet-class>fr.natoine.servletTag.ServletTag</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletTag</servlet-name>
+		<url-pattern>/ServletTag</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ServletConsultation</display-name>
+		<servlet-name>ServletConsultation</servlet-name>
+		<servlet-class>fr.natoine.servletConsultation.ServletConsultation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletConsultation</servlet-name>
+		<url-pattern>/ServletConsultation</url-pattern>
+	</servlet-mapping>
+</web-app>

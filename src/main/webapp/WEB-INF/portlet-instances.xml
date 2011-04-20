@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+      <instance>
+         <instance-id>PortletCreateAnnotationInstance</instance-id>
+         <portlet-ref>PortletCreateAnnotation</portlet-ref>
+      </instance>
+   </deployment>
+   <deployment>
+      <instance>
+         <instance-id>PortletViewAnnotationInstance</instance-id>
+         <portlet-ref>PortletViewAnnotation</portlet-ref>
+      </instance>
+   </deployment>
+    <deployment>
+      <instance>
+         <instance-id>PortletViewAnnotationForumInstance</instance-id>
+         <portlet-ref>PortletViewAnnotation</portlet-ref>
+      </instance>
+   </deployment>
+   <deployment>
+      <instance>
+         <instance-id>PortletAnnotationStatusInstance</instance-id>
+         <portlet-ref>PortletAnnotationStatus</portlet-ref>
+      </instance>
+   </deployment>
+   <deployment>
+      <instance>
+         <instance-id>PortletAnnotationStatusForumInstance</instance-id>
+         <portlet-ref>PortletAnnotationStatus</portlet-ref>
+      </instance>
+   </deployment>
+   <deployment>
+      <instance>
+         <instance-id>PortletTopicsListInstance</instance-id>
+         <portlet-ref>PortletTopicsList</portlet-ref>
+      </instance>
+   </deployment>
+</deployments>

@@ -1,0 +1,5 @@
+#Default properties for PortletCreateAnnotation
+url_servlet_annotations=http\://www.jeu2debat.org/PortletAnnotation-1.0.0/ServletViewResources
+url_servlet_consultation=http\://www.jeu2debat.org/PortletAnnotation-1.0.0/ServletConsultation
+url_json_tags=http\://www.jeu2debat.org/PortletAnnotation-1.0.0/ServletTag
+defaultURL=http\://www.natoine.fr/expe_vero/platon.html

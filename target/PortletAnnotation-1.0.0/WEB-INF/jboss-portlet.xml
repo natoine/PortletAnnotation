@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app>
+  <portlet>
+    <portlet-name>PortletCreateAnnotation</portlet-name>
+   <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+  <portlet>
+    <portlet-name>PortletViewAnnotation</portlet-name>
+   <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+  <portlet>
+    <portlet-name>PortletAnnotationStatus</portlet-name>
+     <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+  <portlet>
+    <portlet-name>PortletTopicsList</portlet-name>
+     <ajax>
+      <partial-refresh>true</partial-refresh>
+   </ajax>
+  </portlet>
+</portlet-app>	

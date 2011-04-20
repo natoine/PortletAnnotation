@@ -1,0 +1,125 @@
+.quick_reply
+{
+	cursor : pointer ;	
+}
+.user_pseudo, .current_url
+{
+	display : none ;
+}
+.message
+{
+	color : red ;
+	font-weight : bold ;
+	text-decoration:blink ;
+	font-family : Verdana,Arial,Helvetica,sans-serif ;
+}
+.panier
+{
+	background-color: #DC911B ;
+}
+.panier .liste_selections
+{
+	background-color: #D3E1E2 ; 
+	width: 96% ;
+	margin-right : 2% ;
+	margin-left : 2% ;
+}
+.panier .liste_selections caption
+{
+	color : #F2D4A7 ;
+	font-weight : bold ;
+}
+.panier .liste_selections .selection, .panier .liste_selections .webpage, .panier .liste_selections .resource
+{
+	border: 2px solid white;
+}
+.extrait_selection
+{
+	text-align : left ;
+}
+.panier .liste_selections .selection .suppr, .panier .liste_selections .webpage .suppr, .panier .liste_selections .resource .suppr
+{
+	text-align : right ;
+}
+.panier .liste_selections .selection .suppr a, .panier .liste_selections .webpage .suppr a, .panier .liste_selections .resource .suppr a
+{
+	color : red ;
+	font-weight : bold ;
+}
+.panier .liste_selections .selection .selection_header, .panier .liste_selections .webpage .webpage_header, .panier .liste_selections .resource .resource_header
+{
+	width: 100% ;
+	background-color: #94D8DC ;
+	font-weight: bold ;
+}
+.panier .liste_selections .selection .selection_content, .panier .liste_selections .webpage .webpage_content, .panier .liste_selections .resource .resource_content
+{
+	font-style: normal ;
+}
+.panier .liste_selections .unknown
+{
+	border: 2px solid white;
+}
+.panier .liste_selections .unknown .unknown_header
+{
+	width: 100% ;
+	background-color: #B40404 ;
+	font-weight: bold ;
+}
+.panier .liste_selections .unknown .unknown_content
+{
+	background-color: #FF0000 ;
+	font-style: normal ;
+}
+.uncolor, .color
+{
+	text-align: right;
+}
+.clear_annotation
+{
+	text-align: right;
+}
+.annotation_form
+{
+}
+.annotation_form .annotation_form_header
+{
+	width : 100% ;
+	background-color : #DC911B ;
+	font-weight : bold ;
+	text-align : center ;
+	color : #F2D4A7 ;
+}
+.annotation_form .formelt
+{
+	width : 96%;
+	margin-right : 2%;
+	margin-left : 2% ;
+}
+.annotation_form .formelt .eltheader
+{
+	font-style : italic ;
+	font-weight : bold ;
+	text-align : left ;
+	vertical-align : top ;
+	float : left ;
+}
+.annotation_form .formelt .formfield
+{
+	width : 100% ;
+	vertical-align : bottom ;
+	float : right ;
+}
+.annotation_form .formelt .formfield textarea
+{
+	width : 100% ;
+}
+.annotation_form .formelt .formfield .choice
+{
+	color : black ;
+	font-family : Verdana,Arial,Helvetica,sans-serif ;
+}
+.annotation_form .validate_form_annotation
+{
+	text-align : center ;
+}

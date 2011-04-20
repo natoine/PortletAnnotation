@@ -1,0 +1,2 @@
+#Default properties for PortletCreateAnnotation
+url_servlet_annotations=http\://www.jeu2debat.org/PortletAnnotation-1.0.0/ServletViewResources

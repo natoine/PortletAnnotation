@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+      <if-exists>overwrite</if-exists>
+      <parent-ref>default</parent-ref>
+       <page>
+         <page-name>default</page-name>
+         <window>
+        	 <window-name>PortletNavigationWindow</window-name>
+        	 <instance-ref>PortletNavigationInstance</instance-ref>
+         	<region>center</region>
+         	<height>0</height>
+      	</window>
+      	<window>
+        	 <window-name>BrowserWindow</window-name>
+        	 <instance-ref>PortletWebBrowserInstance</instance-ref>
+         	<region>center</region>
+         	<height>1</height>
+      	</window>
+      	<window>
+        	 <window-name>ViewAnnotationWindow</window-name>
+        	 <instance-ref>PortletViewAnnotationInstance</instance-ref>
+         	<region>center</region>
+         	<height>2</height>
+      	</window>
+      	<window>
+        	 <window-name>LoginWindow</window-name>
+        	 <instance-ref>PortletUserAccountLoginInstance</instance-ref>
+         	<region>left</region>
+         	<height>0</height>
+      	</window>
+      	<window>
+        	 <window-name>AnnotationStatusForumWindow</window-name>
+        	 <instance-ref>PortletAnnotationStatusInstance</instance-ref>
+         	<region>left</region>
+         	<height>1</height>
+      	</window>
+      	<window>
+        	 <window-name>CreateAnnotationWindow</window-name>
+        	 <instance-ref>PortletCreateAnnotationInstance</instance-ref>
+         	<region>left</region>
+         	<height>2</height>
+      	</window>
+      </page>
+   </deployment>
+</deployments>

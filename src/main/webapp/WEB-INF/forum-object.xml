@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployments>
+   <deployment>
+         <!-- <if-exists>overwrite</if-exists> -->
+      <parent-ref>default</parent-ref>
+       <page>
+         <page-name>Forum</page-name>
+      	<window>
+        	 <window-name>TopicListWindow</window-name>
+        	 <instance-ref>PortletTopicsListInstance</instance-ref>
+         	<region>center</region>
+         	<height>0</height>
+      	</window>
+      	<window>
+        	 <window-name>ViewAnnotationForumWindow</window-name>
+        	 <instance-ref>PortletViewAnnotationForumInstance</instance-ref>
+         	<region>center</region>
+         	<height>1</height>
+      	</window>
+      	<window>
+        	 <window-name>AnnotationStatusForumWindow</window-name>
+        	 <instance-ref>PortletAnnotationStatusForumInstance</instance-ref>
+         	<region>left</region>
+         	<height>0</height>
+      	</window>
+      </page>
+   </deployment>
+</deployments>

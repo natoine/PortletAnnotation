@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+.down_icon
+{
+	background : url(/images/down_arrow.png);
+}
+.up_icon
+{
+	background : url(/images/up_arrow.png);
+}

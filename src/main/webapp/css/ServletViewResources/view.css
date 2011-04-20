@@ -1,0 +1,109 @@
+.current_url
+{
+	display : none ;
+}
+.resource, .annotation
+{
+	width : 100% ;
+	border: 2px solid #DFB66E;
+	font-family : 'Lucida Grande',Verdana,Arial,Sans-Serif ;
+}
+.resource .resource_header, .annotation .resource_header, .content
+{
+	width : 100% ;
+}
+.resource .resource_header a, .annotation .resource_header a
+{
+	font-weight : bold ;
+	color : #AE7005 ;
+	text-decoration : none ;
+}
+.resource .resource_content, .annotation .resource_content
+{
+	width : 100% ;
+}
+.selection_content_header
+{
+	font-weight : bold ;
+}
+.selection_content
+{
+	font-family : Verdana,Arial,Helvetica,sans-serif ;
+}
+.annotation_row
+{
+	border : 2px solid #DFB66E;
+}
+.reply, .color
+{
+	text-align : right;
+	vertical-align : top ;
+}
+.annotation_list
+{
+	width : 100% ;
+}
+.annotation_list .annotation_row .annotation
+{
+	cursor : pointer ;
+}
+.author, .judgment_label, .annotated_head, .added_head
+{
+	font-weight : bold ;
+	color : #AE7005 ;
+}
+.judgment
+{
+	color : black ;
+}
+.resource_title
+{
+	color : white ;
+}
+.resource_type, .selection_origin, .selection_content_header, .status
+{
+	font-weight : bold ;
+	color : #AE7005 ;
+}
+.mood
+{
+	width : 20 % ;
+	vertical-align : top ;
+	margin : 0 ;
+	padding : 0 ;
+	text-align : right ;
+	position : relative ;
+}
+.resource_head_left
+{
+	width : 78 % ;
+	vertical-align : top ;
+	margin : 0 ;
+	text-align : left ;
+	padding : 0 ;
+	position : relative ;
+}
+.annotation_added .resource_header .a
+{
+	cursor : default ;
+	font-weight : bold ;
+	color : #AE7005 ;
+}
+.content
+{
+	color : black ;
+	padding-left:5%;
+	width:95%;
+}
+.content .resource_header
+{
+	color : #AE7005 ;
+}
+.flame
+{
+	color : red ;
+}
+.troll
+{
+	color : blue ;
+}
